@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'miso-bold';
+    src: url('/font/MISO-BOL.eot');
+    src: url('/font/MISO-BOL.eot?#iefix') format('embedded-opentype'),
+         url('/font/MISO-BOL.woff') format('woff'),
+         url('/font/MISO-BOL.ttf') format('truetype'),
+         url('/font/MISO-BOL.svg#miso-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* header */
+
+header{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #505050;
+}
+
+#header-container{
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #505050;
+}
+
+#name{
+    position: relative;
+    top: 12px;
+    float: left;
+    font-family: 'miso-bold';
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-link-top{
+    position: relative;
+    top: 8px;
+    float: right;
+}
+
+.icon{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.icon-last{
+    margin-right: 0px;
+}
+
+img{
+    border-style: none;
+}
+
+/* portfolio */
+
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.portfolio-container{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*text*/
+
+.v1{
+    right: 0;
+}
+
+.v2{
+    left: 0;
+}
+
+.text-container{
+    position: absolute;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#title{
+    position: relative;
+    font-family: 'miso-bold';
+    font-size: 70px;
+    line-height: 56px;
+    margin-bottom: 18px;
+}
+
+.body{
+    position: relative;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.launch{
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.launch:hover{
+    background-color: #ccc;
+    transition-duration: 0.3s;
+}
+
+/*design*/
+
+.content{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #505050;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+
+.img-social{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: #3b3a3a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -1px #000;
+}
+
+.logo-avatar{
+    position: relative;
+    width: 190px;
+    top: 5px;
+    left: 5px;
+}
+
+h2{
+    position: relative;
+    margin: 30px;
+    font-family: 'miso-bold';
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.text{
+    position: relative;
+    margin: 30px;
+    font-family: arial;
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #505050;
+}
+
+.footer-container{
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*about*/
+
+.about{
+    position: relative;
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.avatar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/*contact*/
+
+.contact{
+    position: relative;
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.last{
+    margin-right: 0px;
+}
+
+.social-link-bottom{
+    position: relative;
+}
+
+/*about&contact*/
+
+h3 {
+    position: relative;
+    font-family: 'miso-bold';
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-bottom{
+    position: relative;
+    font-family: arial;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
